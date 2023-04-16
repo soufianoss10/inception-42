@@ -1,0 +1,5 @@
+1. create nginx Dockerfile
+2. Create ssl cert & key by generate them with openssl.
+3. copy them from host to the machine on /etc/ssl
+4. Create a config file to configure the default file and send it to machine on /etc/nginx/sites-available (ssl port, path of cert etc...)
+5. 
